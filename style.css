@@ -1,68 +1,84 @@
-body{
+body {
 
-    font-family: 'Times New Roman', Times, serif,sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     background-color: antiquewhite;
     color: black;
-    
+
 }
-header{
-    background-color:  #4e3629;
+
+header {
+    background-color: #4e3629;
     color: antiquewhite;
     text-align: center;
     padding: 25px;
 }
 
-nav{
+nav {
     background-color: #6a4f37;
     text-align: center;
     padding: 12px;
 }
-nav a{
+
+nav a {
     color: burlywood;
-    margin: 15px;
     text-decoration: none;
-    padding: 5px;
+    padding: 13px;
+    border-radius: 5px;
 }
-nav a:hover{
+
+nav a:hover {
+
+    border-top: solid 5px bisque;
+    background-color: rgb(131, 95, 66);
+    color: blanchedalmond;
     
-    border-top: solid 5px bisque ;
-    color:antiquewhite;
-    
+
 }
-main{
-    width: 80%; 
+
+main {
+    width: 80%;
     margin: 30px auto;
 }
-section{
-    background-color: #ffffff;
-    padding: 25px;
-    margin-bottom: 25px;/*Espaço abaixo da cada section*/
-    border: 1px solid darkgray;
+
+section {
+   
+    border-radius: 10px;
+    background-color: #fff6ea;
+    padding: 25px;  /*Espaço abaixo da cada section*/
+    margin-bottom: 25px;
+    border: 1px solid #4e3629;
 }
-.botao{
-    border-radius: 15px;
-    background-color:h;
-    color: lightcyan;
+section a {
+    color: #4e3629;
     text-decoration: none;
-    display: inline-block;
-    margin-top: 50px;
-    padding: 10px 20px;
-
+}
+section a:hover {
+    color: darkred;
+}
+section div {
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    margin :5px;
+    padding: 10px;
+    color: cornsilk;
+    text-align: left;
 }
 
-.servico{
-    background-color: antiquewhite;
-    border-left: 4px solid #6a4f37;
+.cardapio{
+    
+    border-left: 7px solid #6a4f37;
     padding: 15px;
     margin: 15px 0;
 }
-#contato{
+
+#contato {
     text-align: center;
 }
-footer{
+
+footer {
     background-color: #4e3629;
-    color: burlywood;   
+    color: burlywood;
     text-align: center;
     padding: 10px;
 
