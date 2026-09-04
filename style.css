@@ -39,6 +39,7 @@ nav a:hover {
 main {
     width: 80%;
     margin: 30px auto;
+    
 }
 
 section {
@@ -49,6 +50,7 @@ section {
     margin-bottom: 25px;
     border: 1px solid #4e3629;
 }
+
 section a {
     color: #4e3629;
     text-decoration: none;
@@ -67,6 +69,7 @@ section div {
 
 .cardapio{
     
+    
     border-left: 7px solid #6a4f37;
     padding: 15px;
     margin: 15px 0;
@@ -77,9 +80,10 @@ section div {
 }
 
 footer {
+    padding: 5px;
     background-color: #4e3629;
     color: burlywood;
     text-align: center;
-    padding: 10px;
+
 
 }
