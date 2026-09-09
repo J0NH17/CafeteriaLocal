@@ -59,11 +59,11 @@ section a:hover {
     color: darkred;
 }
 section div {
+    border:1px solid #4e3629;
     border-radius: 10px;
-    background-color: darkolivegreen;
+    background-color: blanchedalmond;
     margin :5px;
     padding: 10px;
-    color: cornsilk;
     text-align: left;
 }
 
